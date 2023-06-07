@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.box1{
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+    
+    /* align-items: center;  */
+    height: 100vh;
+    width: 99vw;
+}
+
+.background{
+    position: absolute;
+    height: 100%;
+    width: 60%;
+    background: url('../images/contact.jpg') no-repeat center center/cover;
+    /* filter: blur(2px); */
+    z-index: -1;
+}
+
+#container1{
+    padding-right: 2px;
+    /* width: 105%; */
+   
+    height: 100vh;
+    display: flex;
+    
+    align-items: center;
+}
+
+#container1 div{
+    font-family: 'Raleway', sans serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#container1 div input{
+   position: relative;
+    width: 400px;
+    height: 28px;
+    font-size: 18px;
+    font-family: 'Raleway', sans serif;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+
+
+#box{
+   /* position: relative; */
+   
+    margin: 60px;
+    
+    padding: 50px;
+    
+   
+}
+
+#box button{
+    font-family: 'Raleway', sans serif;
+    font-size: 18px;
+    /* float:; */
+    padding: 8px;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 100px;
+    
+}
+
+#box button:hover{
+    
+    background-color: black;
+    border-color: whitesmoke;
+    /* font-size: 16px; */
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+#box p{
+    margin: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+#box p a{
+    text-decoration: none;
+    color: white;
+}
+
+#box p a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#container2{
+    display: flex;
+    /* align-items: center; */
+    background-color: rgb(5, 5, 92);
+    color: white;
+    font-family: 'Raleway', sans serif;
+}
+
+#container2 p{
+    font-size: 16px;
+}
+
+#box2{
+    margin-left: -15px;
+
+    margin-top: 105px;
+    padding: 50px;
+    
+}
+
+#gmail{
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+}
+
+#gmail img{
+    height: 18px;
+    width: 20px;
+    margin-right: 15px;
+}
+
+#insta{
+    display: flex;
+    align-items: center;
+}
+
+
+#insta img{
+    /* padding-left: 2px; */
+    height: 30px;
+    width: 45px;
+    /* font-size: 18px; */
+}
+
+#fb{
+    padding-left: 12px;
+    display: flex;
+    align-items: center;
+}
+#fb img{
+    height: 20px;
+    width: 20px;
+    margin-right: 15px;
+}
+
+#twitter{
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+    padding-top: 5px;
+}
+
+#twitter img{
+    height: 20px;
+    width: 20px;
+    margin-right: 15px;
+}

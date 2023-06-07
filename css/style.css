@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box1{
+    background-image: image();
+    background: url('../images/back1.jpg') no-repeat center center/cover;
+    height: 100vh;
+    width: 98.9vw;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* z-index: -1; */
+    
+}
+
+#navbar img{
+    height: 70px;
+    width: 70px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#navbar ul{
+    display: flex;
+    margin-left: 15px;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 20px;
+    margin: 30px;
+    margin-left: auto;
+}
+
+/* #navbar ul li:last-child{
+    margin-right: 800px;
+} */
+#navbar ul li a{
+    font-family: 'Raleway', sans-serif;
+    color: rgb(254, 251, 251);
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#navbar ul li a:hover{
+    color: rgb(4, 4, 4);
+    background-color: rgb(243, 237, 229);
+    border-radius: 20px;
+   
+    text-decoration: underline;
+    
+}
+
+#navbar ol{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#navbar ol li{
+    list-style: none;
+    margin-right: -930px;
+
+}
+
+#navbar ol img{
+    border: 2px solid white;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+}
+
+
+
+
+
+#home{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    /* align-items: center; */
+    height: 80vh;
+    align-items: center;
+    font-family: 'Bree Serif', serif;;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid white;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+   color: aliceblue;
+    height: 200px;
+    width: 550px;
+    padding: 20px;
+    box-shadow: -7px 7px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.first h1{
+    margin: auto;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: 4px solid white;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+   color: aliceblue;
+    margin-left: 50px;
+    height: 200px;
+    width: 550px;
+    padding: 20px;
+    /* text-align: center; */
+    font-size: 20px;
+    box-shadow: 7px 7px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+#home p{
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+#btn{
+    background-color: rgb(220, 198, 165);
+    border: 4px solid rgb(3, 3, 3);
+    color: rgb(25, 24, 24);
+    font-family: 'Bree Serif', serif;
+    font-size: 18px;
+    margin: 5px 5px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+#btn:hover{
+    border: 3px solid white;
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    text-decoration: underline;
+}
+
+.head1{
+    margin: 30px;
+    margin-bottom: 50px;
+    font-family: 'Raleway', sans serif;
+    text-decoration: underline;
+}
+
+.box2 ul{
+    display: grid;
+    grid-template-columns: repeat(6, 0fr);
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-left: 50px;
+    width: 95vw;
+    
+}
+
+.box2 ul li{
+    list-style: none;
+}
+
+.box2 ul li:hover{
+    transform: scale(1.3);
+}
+
+
+
+.box2 ul li img{
+    height: 200px;
+    width: 220px;
+    border-radius: 12px;
+}
+
+/* .box2 ul li img:hover{
+    transform: scale(1.3);
+} */
+
+.box2 ul button{
+    height: 40px;
+    width: 100px;
+    justify-content: baseline;
+    font-size: 17px;
+    font-family: 'Raleway', sans serif;
+    font-weight: bold;
+    background-color: rgb(220, 217, 217);
+    border: 2px solid black;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.box2 ul button:hover{
+    text-decoration: underline;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+}
+
+.box2 .names{
+    font-family: 'Raleway', sans serif;
+    font-weight: bold;
+    padding-top: 10px;
+    font-size: 22px;
+
+}
+
+.box2 .cost{
+    font-size: 22px;
+    font-family: 'Raleway', sans serif;
+}
